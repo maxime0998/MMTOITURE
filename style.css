@@ -4,16 +4,20 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
 /* Logo officiel M.MTOITURE */
+
 .brand-logo {
   display: block;
-  width: 180px;
+  width: 155px;
   max-width: 100%;
-  height: auto;
+  height: 65px;
   object-fit: contain;
+  object-position: left center;
 }
 
 a.brand {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex: 0 0 170px;
+  min-width: 0;
 }
